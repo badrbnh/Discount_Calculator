@@ -1,7 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 .body-container {
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: #AED2FF;
+}
+
+.card-title {
+    /* border : red solid 1px; */
+    color: #DDDDDD;
+    width: 30rem;
+    height: 8.6875rem;
+    text-shadow: 17px 11px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 7rem;
+    font-style: italic;
+    position: absolute;
+    z-index: 2;
+    bottom: 92%;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+} 
+.phrase_container {
+    /* border: green 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.card {
+    position: relative;
+    z-index: 1;
+    background: #9400FF;
+    width: 30rem;
+    height: 38rem;
+    border-radius: 0.9375rem;
+    box-shadow: 15px 20px 4px 0px rgba(148, 11, 146, 0.25);
+    margin: 5em;
+    margin-top: 0;
+}
+.content {
+    /* border: green 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.output {
+    background: #E4F1FF;
+    height: 8rem;
+    border-radius: 1rem;
+    margin: 1.5rem;
+    margin-bottom: 1rem;
+}
+h4 {
+    color: #DDDDDD;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+    font-size: 1.3rem;
+    font-family: 'Lobster Two', sans-serif;
+    font-style: italic;
+}
+h3 {
+    margin: 1rem;
+    margin-left: 1.5rem;
+    color: #DDDDDD;
+    font-size: 1.5rem;
+    font-family: 'Lobster Two', sans-serif;
+    font-style: italic;
+}
+input {
+    height: 1.8rem;;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 1rem;;
+}
+.btn-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+.calculate-btn {
+    background: #27005D;
+    color: #DDDDDD;
+    border-radius: 1rem;
+    border: none;;
+    width: 9rem;
+    box-shadow: 5px 7px 2px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.calculate-btn:hover {
+    background: #142942;
+}
+p {
+    font-style: italic;
+    font-family: 'Lobster Two', sans-serif;
 }
