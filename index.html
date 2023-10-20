@@ -12,13 +12,15 @@
                 <div class="phrase_container">
                     <h4>Calculator</h4>
                     <div class="content">
-                        <div class="output"></div>
+                        <div class="output-container">
+                            <div class="output"></div>
+                        </div>
                         <h3>Original Price</h3>
-                        <input type="">
+                        <input id="price_input" type="number">
                         <h3>Discount percentage</h3>
-                        <input type="">
+                        <input id="discount_input" type="number">
                         <div class="btn-container">
-                            <button class="calculate-btn">
+                            <button onclick="getValue()" class="calculate-btn">
                                 <p>Calculate</p>
                             </button>
                         </div>
@@ -26,5 +28,6 @@
                 </div>
             </div> 
         </div>
+        <script src="javascript/calcualtion.js"> </script>
     </body>
 </html>

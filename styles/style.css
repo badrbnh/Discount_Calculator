@@ -51,12 +51,17 @@
     justify-content: center;
     margin-top: 1rem;
 }
-.output {
+.output-container{
     background: #E4F1FF;
     height: 8rem;
     border-radius: 1rem;
     margin: 1.5rem;
     margin-bottom: 1rem;
+}
+.output {
+    text-align: center;
+    margin-right: auto;
+    font-size: 6rem;
 }
 h4 {
     color: #DDDDDD;
@@ -81,7 +86,11 @@ input {
     height: 1.8rem;;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-    border-radius: 1rem;;
+    border-radius: 1rem;
+    font-size:1.5rem;
+    font-style: italic;
+    text-align: center;
+
 }
 .btn-container
 {
