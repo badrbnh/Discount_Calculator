@@ -17,7 +17,7 @@
                         <h3>Original Price</h3>
                         <input id="price_input" type="number">
                         <h3>Discount percentage</h3>
-                        <input id="discount_input" type="number">
+                        <input id="discount_input" type="number" oninput="limitInput(this, 3)">
                         <div class="btn-container">
                             <button onclick="getValue()" class="calculate-btn">
                                 <p>Calculate</p>
